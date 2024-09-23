@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>United Tech Club</title>
+    <link href="code.css" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: calc();
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <nav class="bg-white">
+        <a href="index.html">
+          <img src="./assets/logo.png" alt="logo" class="logo" />
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <span class="icon close-icon" onclick="hidemenu()">&#10005;</span>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <span class="icon open-icon" onclick="showmenu()">&#9776;</span>
+      </nav>
+
+      <div class="content-container">
+        <div class="image-container">
+          <img src="./assets/hackathon.jpg" alt="United Tech Club" />
+        </div>
+        <div class="description-container">
+          <h1 class="heading">United Tech Club</h1>
+          <p>
+            United Tech Club is a group of creative and innovative students at
+            United Technical College. We conduct various activities related to
+            Science and Technology, helping and encouraging students to explore
+            their creativity and innovation. Our goal is to foster a
+            collaborative environment where students can engage in projects,
+            workshops, and events that benefit everyone in the college
+            community. Join us in making a difference!
+          </p>
+          <a href="#events" class="hero-btn">Explore Events</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="gallery-section" id="gallery">
+      <h2 class="gallery-heading">Our Gallery</h2>
+      <p class="gallery-description">
+        Explore our collection of moments captured during events, workshops, and
+        activities. Join us in celebrating creativity and collaboration at
+        United Tech Club!
+      </p>
+      <div class="gallery-container">
+        <img src="./assets/1.jpg" alt="Gallery Image 1" class="gallery-image" />
+        <img src="./assets/2.jpg" alt="Gallery Image 2" class="gallery-image" />
+        <img src="./assets/3.jpg" alt="Gallery Image 3" class="gallery-image" />
+        <img src="./assets/4.jpg" alt="Gallery Image 4" class="gallery-image" />
+        <img src="./assets/5.jpg" alt="Gallery Image 5" class="gallery-image" />
+        <img src="./assets/6.jpg" alt="Gallery Image 6" class="gallery-image" />
+        <img src="./assets/7.jpg" alt="Gallery Image 7" class="gallery-image" />
+        <img src="./assets/8.jpg" alt="Gallery Image 8" class="gallery-image" />
+        <img src="./assets/9.jpg" alt="Gallery Image 9" class="gallery-image" />
+      </div>
+    </div>
+
+    <!-- Events Section -->
+    <div class="events-section" id="events">
+      <h2 class="events-heading">Upcoming Events</h2>
+      <p class="events-description">
+        Stay tuned for our exciting upcoming events! We organize workshops,
+        hackathons, tech talks, and more. Check out the details below and be a
+        part of the action.
+      </p>
+      <div class="events-container">
+        <!-- Event 1 -->
+        <div class="event-card">
+          <img
+            src="./assets/hackathon-event.jpg"
+            alt="Hackathon"
+            class="event-image"
+          />
+          <div class="event-details">
+            <h3>Annual Hackathon</h3>
+            <p>Date: November 15, 2024</p>
+            <p>Location: Main Hall, United Technical College</p>
+            <p>
+              Join us for our annual hackathon where students collaborate to
+              solve real-world problems using technology.
+            </p>
+            <a href="event_detail_page.html" class="event-btn">More Details</a>
+          </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="event-card">
+          <img
+            src="./assets/workshop-event.jpg"
+            alt="Workshop"
+            class="event-image"
+          />
+          <div class="event-details">
+            <h3>Web Development Workshop</h3>
+            <p>Date: December 3, 2024</p>
+            <p>Location: Lab 3, United Technical College</p>
+            <p>
+              A hands-on workshop where participants will learn the basics of
+              web development and build their first website.
+            </p>
+            <a href="event_detail_page.html" class="event-btn">More Details</a>
+          </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="event-card">
+          <img
+            src="./assets/tech-talk-event.png"
+            alt="Tech Talk"
+            class="event-image"
+          />
+          <div class="event-details">
+            <h3>Tech Talk: Future of AI</h3>
+            <p>Date: January 25, 2025</p>
+            <p>Location: Auditorium, United Technical College</p>
+            <p>
+              A tech talk focusing on the advancements and future of artificial
+              intelligence, presented by industry experts.
+            </p>
+            <a href="event_detail_page.html" class="event-btn">More Details</a>
+          </div>
+        </div>
+      </div>
+      <section class="team-section" id="team">
+        <div class="team-image-container">
+          <img
+            src="./assets/team-photo.jpg"
+            alt="United Tech Club Team"
+            class="team-photo"
+          />
+        </div>
+      </section>
+    </div>
+    <section class="contact-section" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions, feel free to reach out to us. We'd love to
+        hear from you!
+      </p>
+
+      <div class="contact-container">
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            Email:
+            <a href="mailto:info@unitedtechclub.com">info@unitedtechclub.com</a>
+          </p>
+          <p>Phone: <a href="tel:+123456789">+123-456-789</a></p>
+          <p>Address: United Technical College, 123 Main Street, Tech City</p>
+          <h3>Follow Us</h3>
+          <p>
+            <a href="https://www.facebook.com/unitedtechclub1">Facebook</a> |
+            <a href="https://www.instagram.com/unitedtechclub/">Instagram</a> |
+            <a href="#">Twitter</a>
+          </p>
+        </div>
+        <!-- Team Section -->
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="form-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+     // Function to show the menu
+function showmenu() {
+  document.getElementById("navLinks").classList.add("open");
+}
+
+// Function to hide the menu
+function hidemenu() {
+  document.getElementById("navLinks").classList.remove("open");
+}
+
+    </script>
+  </body>
+</html>
